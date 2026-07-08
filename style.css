@@ -652,6 +652,25 @@ img, video {
   background-color: var(--bg-card);
   padding: 2rem;
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.intro-with-image {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.intro-text-content {
+  flex: 1;
+}
+
+.intro-cover {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 24px;
+  flex-shrink: 0;
 }
 
 .section-title {
@@ -724,6 +743,15 @@ img, video {
   background-image: var(--gradient-pink);
   padding: 2rem;
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.card-cover {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .card-header {
@@ -803,6 +831,7 @@ img, video {
   background-image: var(--gradient-slate);
   padding: 2rem;
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
 }
 
 /* === Funny Dual Reasons Section === */
@@ -1244,6 +1273,15 @@ html[dir="rtl"] .section-description {
 
   .intro-card {
     padding: 1.5rem;
+  }
+
+  .intro-with-image {
+    flex-direction: column;
+  }
+
+  .intro-cover {
+    width: 100%;
+    height: 200px;
   }
 
   .section-title {
