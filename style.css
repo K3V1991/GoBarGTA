@@ -1123,9 +1123,8 @@ img, video {
 
 /* === Visitor Counter Footer === */
 .visitor-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  text-align: center;
   width: 100%;
   padding: 2rem;
   padding-bottom: 3rem;
@@ -1142,6 +1141,7 @@ img, video {
   background-color: rgb(255 255 255 / 1);
   padding: 0.5rem 1.25rem 0.5rem 0.75rem;
   box-shadow: 0 1px 3px rgb(0 0 0 / 0.05);
+  margin: 0 auto;
 }
 
 .counter-badge {
