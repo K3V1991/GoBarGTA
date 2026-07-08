@@ -1525,27 +1525,27 @@ body.dark .top-bar {
 .poll-grid {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
 }
 
 .poll-card {
-  border-radius: 20px;
+  border-radius: 24px;
   border-width: 1px;
   border-color: var(--border-light);
   background-color: var(--bg-card-alt);
-  padding: 1.5rem;
+  padding: 1.25rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .poll-card:hover {
   border-color: var(--gjs-t-color-primary);
-  transform: translateY(-2px);
+  transform: translateY(-4px);
   box-shadow: var(--shadow-md);
 }
 
@@ -1554,9 +1554,25 @@ body.dark .top-bar {
   background-color: var(--bg-pink);
 }
 
-.poll-emoji {
-  font-size: 2.5rem;
-  line-height: 1;
+.poll-cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.poll-cover-text {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 0.5);
+  letter-spacing: 0.05em;
+  text-align: center;
 }
 
 .poll-name {
@@ -1576,14 +1592,15 @@ body.dark .top-bar {
 
 .poll-btn {
   margin-top: auto;
-  padding: 0.5rem 1.5rem;
+  width: 100%;
+  padding: 0.625rem 1.5rem;
   border-radius: 9999px;
   border-width: 1px;
   border-style: solid;
   border-color: var(--gjs-t-color-primary);
   background-color: transparent;
   color: var(--gjs-t-color-primary);
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 700;
   cursor: pointer;
   transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1605,7 +1622,6 @@ body.dark .top-bar {
   display: none;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 0.5rem;
 }
 
 .poll-card.voted .poll-result {
@@ -1654,17 +1670,9 @@ body.dark .top-bar {
 /* Responsive: Tablet */
 @media (max-width: 992px) {
   .poll-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* Responsive: Mobile */
-@media (max-width: 480px) {
-  .poll-grid {
     grid-template-columns: 1fr;
-  }
-
-  .poll-card {
-    padding: 1.25rem;
+    max-width: 24rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

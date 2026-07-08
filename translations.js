@@ -116,8 +116,6 @@ const translations = {
     poll_barbie_desc: "Stylized nostalgia with a fresh twist",
     poll_godzilla_desc: "Monster spectacle and cult fun",
     poll_gta_desc: "The biggest event of the year",
-    poll_all_title: "All of them!",
-    poll_all_desc: "Why choose when you can have everything?",
     poll_vote: "Vote",
     poll_total: "Total votes: <strong data-poll-count>0</strong>"
   },
@@ -239,8 +237,6 @@ const translations = {
     poll_barbie_desc: "Stilvolle Nostalgie mit frischem Twist",
     poll_godzilla_desc: "Monster-Spektakel und Kult-Spaß",
     poll_gta_desc: "Das größte Ereignis des Jahres",
-    poll_all_title: "Alle!",
-    poll_all_desc: "Warum wählen, wenn man alles haben kann?",
     poll_vote: "Abstimmen",
     poll_total: "Gesamte Stimmen: <strong data-poll-count>0</strong>"
   },
@@ -362,8 +358,6 @@ const translations = {
     poll_barbie_desc: "Стильная ностальгия со свежим поворотом",
     poll_godzilla_desc: "Монстровое шоу и культовое веселье",
     poll_gta_desc: "Крупнейшее событие года",
-    poll_all_title: "Все!",
-    poll_all_desc: "Зачем выбирать, когда можно взять всё?",
     poll_vote: "Голосовать",
     poll_total: "Всего голосов: <strong data-poll-count>0</strong>"
   },
@@ -485,8 +479,6 @@ const translations = {
     poll_barbie_desc: "Nostalgie stylisée avec une touche fraîche",
     poll_godzilla_desc: "Spectacle monstre et fun culte",
     poll_gta_desc: "Le plus grand événement de l'année",
-    poll_all_title: "Tous!",
-    poll_all_desc: "Pourquoi choisir quand on peut tout avoir?",
     poll_vote: "Voter",
     poll_total: "Total des votes: <strong data-poll-count>0</strong>"
   },
@@ -608,8 +600,6 @@ const translations = {
     poll_barbie_desc: "风格化的怀旧感，带着新鲜感",
     poll_godzilla_desc: "怪兽奇观和邪典乐趣",
     poll_gta_desc: "年度最大事件",
-    poll_all_title: "全都要！",
-    poll_all_desc: "为什么要选？全买不好吗？",
     poll_vote: "投票",
     poll_total: "总票数: <strong data-poll-count>0</strong>"
   },
@@ -731,8 +721,6 @@ const translations = {
     poll_barbie_desc: "Nostalgia estilizada con un toque fresco",
     poll_godzilla_desc: "Espectáculo de monstruos y diversión de culto",
     poll_gta_desc: "El evento más grande del año",
-    poll_all_title: "¡Todos!",
-    poll_all_desc: "¿Por qué elegir cuando puedes tenerlo todo?",
     poll_vote: "Votar",
     poll_total: "Votos totales: <strong data-poll-count>0</strong>"
   },
@@ -854,8 +842,6 @@ const translations = {
     poll_barbie_desc: "ताज़ा ट्विस्ट के साथ स्टाइलिश नोस्टाल्जिया",
     poll_godzilla_desc: "मॉन्स्टर शो और कल्ट मज़ा",
     poll_gta_desc: "साल का सबसे बड़ा इवेंट",
-    poll_all_title: "सब कुछ!",
-    poll_all_desc: "जब सब कुछ मिल सकता है तो चुनते क्यों हैं?",
     poll_vote: "वोट करें",
     poll_total: "कुल वोट: <strong data-poll-count>0</strong>"
   },
@@ -977,8 +963,6 @@ const translations = {
     poll_barbie_desc: "حنين أنيق بلمسة جديدة",
     poll_godzilla_desc: "عرض الوحوش ومتعة الطقسية",
     poll_gta_desc: "حدث العام الأكبر",
-    poll_all_title: "الكل!",
-    poll_all_desc: "لماذا تختار عندما يمكنك الحصول على كل شيء؟",
     poll_vote: "تصويت",
     poll_total: "إجمالي الأصوات: <strong data-poll-count>0</strong>"
   }

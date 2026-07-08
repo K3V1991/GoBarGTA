@@ -116,7 +116,7 @@ const POLL_KEY = 'gobargta-poll';
 
 function getPollData() {
   const data = localStorage.getItem(POLL_KEY);
-  return data ? JSON.parse(data) : { barbie: 0, godzilla: 0, gta: 0, all: 0 };
+  return data ? JSON.parse(data) : { barbie: 0, godzilla: 0, gta: 0 };
 }
 
 function savePollData(data) {
@@ -125,7 +125,7 @@ function savePollData(data) {
 
 function updatePollUI() {
   const data = getPollData();
-  const total = data.barbie + data.godzilla + data.gta + data.all;
+  const total = data.barbie + data.godzilla + data.gta;
 
   document.querySelectorAll('[data-poll-bar]').forEach(bar => {
     const key = bar.dataset.pollBar;
