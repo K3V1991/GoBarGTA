@@ -914,10 +914,10 @@ img, video {
   grid-column: span 5 / span 5;
   border-radius: 32px;
   border-width: 1px;
-  border-color: var(--border-light);
-  background-color: var(--bg-dark);
+  border-color: var(--border-amber);
+  background-color: var(--bg-warm);
   padding: 2rem;
-  color: #ffffff;
+  color: var(--text-primary);
   box-shadow: var(--shadow-sm);
 }
 
@@ -926,11 +926,12 @@ img, video {
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
+  color: var(--text-primary);
 }
 
 .aside-text {
   margin-top: 1.25rem;
-  color: var(--text-on-dark-muted);
+  color: var(--text-muted);
 }
 
 .aside-notes {
@@ -943,12 +944,12 @@ img, video {
 .aside-note {
   border-radius: 1rem;
   border-width: 1px;
-  border-color: var(--border-slate);
-  background-color: var(--bg-dark-card);
+  border-color: var(--border-amber);
+  background-color: var(--bg-card);
   padding: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: var(--text-on-dark-muted);
+  color: var(--text-body);
 }
 
 /* === Barbenheimer Analogy Section === */
@@ -1442,6 +1443,27 @@ body.dark .secondary-link {
 body.dark .secondary-link:hover {
   border-color: #ec4899;
   color: #ec4899;
+}
+
+/* Dark mode reading card (verdict) override */
+body.dark .reading-card {
+  background-color: #fff8e7;
+  border-color: #f59e0b;
+  color: #111827;
+}
+
+body.dark .aside-title {
+  color: #111827;
+}
+
+body.dark .aside-text {
+  color: #374151;
+}
+
+body.dark .aside-note {
+  background-color: #ffffff;
+  border-color: #f59e0b;
+  color: #374151;
 }
 
 /* === Community Poll Section === */
