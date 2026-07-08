@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', initI18n);
 const THEME_KEY = 'gobargta-theme';
 
 function getSavedTheme() {
-  return localStorage.getItem(THEME_KEY) || 'dark';
+  return localStorage.getItem(THEME_KEY) || 'light';
 }
 
 function setTheme(theme) {
