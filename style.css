@@ -670,10 +670,10 @@ img, video {
   grid-column: span 4 / span 4;
   border-radius: 32px;
   border-width: 1px;
-  border-color: var(--border-light);
-  background-color: var(--bg-dark);
+  border-color: var(--border-amber);
+  background-color: var(--bg-warm);
   padding: 2rem;
-  color: #ffffff;
+  color: var(--text-primary);
   box-shadow: var(--shadow-sm);
 }
 
@@ -683,7 +683,7 @@ img, video {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.22em;
-  color: var(--text-on-dark-muted);
+  color: var(--gjs-t-color-accent);
 }
 
 .stat-list {
@@ -707,7 +707,7 @@ img, video {
   margin-top: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: var(--text-on-dark-muted);
+  color: var(--text-muted);
 }
 
 /* === Reasons Comparison Section === */
