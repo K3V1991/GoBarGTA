@@ -52,33 +52,33 @@ body {
 
 /* Dark Theme */
 body.dark {
-  --bg-page: #1e1520;
-  --bg-body: #251c28;
-  --bg-card: #2a202e;
-  --bg-card-alt: #332838;
-  --bg-card-hover: #3e3244;
-  --bg-dark: #1e1520;
-  --bg-dark-card: #2a202e;
-  --bg-soft: #2a202e;
-  --bg-warm: #fff8e7;
-  --bg-pink: #352435;
-  --text-primary: #f7f0f8;
-  --text-secondary: #ebe0ed;
-  --text-body: #d4c5d6;
-  --text-muted: #a592a8;
-  --text-light: #7a6b7d;
-  --text-on-dark: #f7f0f8;
-  --text-on-dark-muted: #d4c5d6;
-  --border-light: #41344a;
-  --border-soft: #41344a;
-  --border-pink: #6b2f5e;
-  --border-slate: #524260;
-  --border-amber: #f59e0b;
-  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.35);
-  --shadow-md: 0 4px 6px -4px rgb(0 0 0 / 0.45);
-  --gradient-page: linear-gradient(to bottom, #1e1520, #251c28, #1e1520);
-  --gradient-pink: linear-gradient(to bottom right, #2a202e, #1e1520);
-  --gradient-slate: linear-gradient(to bottom right, #2a202e, #1e1520);
+  --bg-page: #0f172a;
+  --bg-body: #1e293b;
+  --bg-card: #1e293b;
+  --bg-card-alt: #334155;
+  --bg-card-hover: #475569;
+  --bg-dark: #0f172a;
+  --bg-dark-card: #1e293b;
+  --bg-soft: #1e293b;
+  --bg-warm: #1e293b;
+  --bg-pink: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #e2e8f0;
+  --text-body: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-light: #64748b;
+  --text-on-dark: #f1f5f9;
+  --text-on-dark-muted: #cbd5e1;
+  --border-light: #334155;
+  --border-soft: #334155;
+  --border-pink: #831843;
+  --border-slate: #475569;
+  --border-amber: #92400e;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -4px rgb(0 0 0 / 0.4);
+  --gradient-page: linear-gradient(to bottom, #0f172a, #1e293b, #0f172a);
+  --gradient-pink: linear-gradient(to bottom right, #1e293b, #0f172a);
+  --gradient-slate: linear-gradient(to bottom right, #1e293b, #0f172a);
 }
 
 html {
@@ -670,10 +670,10 @@ img, video {
   grid-column: span 4 / span 4;
   border-radius: 32px;
   border-width: 1px;
-  border-color: var(--border-amber);
-  background-color: var(--bg-warm);
+  border-color: var(--border-light);
+  background-color: var(--bg-dark);
   padding: 2rem;
-  color: var(--text-primary);
+  color: #ffffff;
   box-shadow: var(--shadow-sm);
 }
 
@@ -683,7 +683,7 @@ img, video {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.22em;
-  color: var(--gjs-t-color-accent);
+  color: var(--text-on-dark-muted);
 }
 
 .stat-list {
@@ -707,7 +707,7 @@ img, video {
   margin-top: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: var(--text-muted);
+  color: var(--text-on-dark-muted);
 }
 
 /* === Reasons Comparison Section === */
@@ -914,10 +914,10 @@ img, video {
   grid-column: span 5 / span 5;
   border-radius: 32px;
   border-width: 1px;
-  border-color: var(--border-amber);
-  background-color: var(--bg-warm);
+  border-color: var(--border-light);
+  background-color: var(--bg-dark);
   padding: 2rem;
-  color: var(--text-primary);
+  color: #ffffff;
   box-shadow: var(--shadow-sm);
 }
 
@@ -926,12 +926,11 @@ img, video {
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
-  color: var(--text-primary);
 }
 
 .aside-text {
   margin-top: 1.25rem;
-  color: var(--text-muted);
+  color: var(--text-on-dark-muted);
 }
 
 .aside-notes {
@@ -944,12 +943,12 @@ img, video {
 .aside-note {
   border-radius: 1rem;
   border-width: 1px;
-  border-color: var(--border-amber);
-  background-color: var(--bg-card);
+  border-color: var(--border-slate);
+  background-color: var(--bg-dark-card);
   padding: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: var(--text-body);
+  color: var(--text-on-dark-muted);
 }
 
 /* === Barbenheimer Analogy Section === */
@@ -994,10 +993,10 @@ img, video {
 .conclusion-section {
   border-radius: 36px;
   border-width: 1px;
-  border-color: var(--border-amber);
-  background-color: var(--bg-warm);
+  border-color: var(--border-light);
+  background-color: var(--bg-dark);
   padding: 2rem;
-  color: var(--text-primary);
+  color: #ffffff;
   box-shadow: var(--shadow-sm);
 }
 
@@ -1015,7 +1014,7 @@ img, video {
 .conclusion-text {
   margin-top: 1.25rem;
   max-width: 56rem;
-  color: var(--text-muted);
+  color: var(--text-on-dark-muted);
 }
 
 .conclusion-action {
@@ -1025,8 +1024,8 @@ img, video {
 .cta-card {
   border-radius: 28px;
   border-width: 1px;
-  border-color: var(--border-amber);
-  background-color: var(--bg-card);
+  border-color: var(--border-slate);
+  background-color: var(--bg-dark-card);
   padding: 1.5rem;
 }
 
@@ -1034,7 +1033,7 @@ img, video {
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--text-on-dark-muted);
 }
 
 .cta-options {
@@ -1056,16 +1055,13 @@ img, video {
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 700;
-  background-color: var(--gjs-t-color-accent);
-  color: #ffffff;
-  border-radius: 9999px;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
 .cta-button:hover {
-  background-color: #d97706;
+  background-color: rgb(219 39 119 / 1);
 }
 
 .secondary-link {
@@ -1075,7 +1071,7 @@ img, video {
   gap: 0.75rem;
   border-radius: 9999px;
   border-width: 1px;
-  border-color: var(--border-amber);
+  border-color: var(--border-slate);
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-top: 1rem;
@@ -1083,7 +1079,7 @@ img, video {
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: #ffffff;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
@@ -1091,7 +1087,7 @@ img, video {
 
 .secondary-link:hover {
   border-color: var(--gjs-t-color-primary);
-  color: var(--gjs-t-color-primary);
+  color: #f9a8d4;
 }
 
 /* === Visitor Counter Footer === */
@@ -1404,66 +1400,6 @@ html[dir="rtl"] .section-description {
 /* Dark theme specific header adjustments */
 body.dark .top-bar {
   background-color: var(--bg-body);
-}
-
-/* Dark mode conclusion section override */
-body.dark .conclusion-section {
-  background-color: #fff8e7;
-  border-color: #f59e0b;
-  color: #111827;
-}
-
-body.dark .conclusion-text {
-  color: #374151;
-}
-
-body.dark .cta-card {
-  background-color: #ffffff;
-  border-color: #f59e0b;
-}
-
-body.dark .cta-label {
-  color: #374151;
-}
-
-body.dark .cta-button {
-  background-color: #f59e0b;
-  color: #ffffff;
-}
-
-body.dark .cta-button:hover {
-  background-color: #d97706;
-}
-
-body.dark .secondary-link {
-  border-color: #f59e0b;
-  color: #111827;
-}
-
-body.dark .secondary-link:hover {
-  border-color: #ec4899;
-  color: #ec4899;
-}
-
-/* Dark mode reading card (verdict) override */
-body.dark .reading-card {
-  background-color: #fff8e7;
-  border-color: #f59e0b;
-  color: #111827;
-}
-
-body.dark .aside-title {
-  color: #111827;
-}
-
-body.dark .aside-text {
-  color: #374151;
-}
-
-body.dark .aside-note {
-  background-color: #ffffff;
-  border-color: #f59e0b;
-  color: #374151;
 }
 
 /* === Community Poll Section === */
