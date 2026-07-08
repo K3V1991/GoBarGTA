@@ -82,3 +82,31 @@ function initI18n() {
 
 // Run on DOM ready
 document.addEventListener('DOMContentLoaded', initI18n);
+
+// Theme Toggle
+const THEME_KEY = 'gobargta-theme';
+
+function getSavedTheme() {
+  return localStorage.getItem(THEME_KEY) || 'dark';
+}
+
+function setTheme(theme) {
+  document.body.classList.toggle('dark', theme === 'dark');
+  localStorage.setItem(THEME_KEY, theme);
+  const toggle = document.getElementById('theme-toggle');
+  if (toggle) toggle.checked = theme === 'dark';
+}
+
+function initTheme() {
+  const saved = getSavedTheme();
+  setTheme(saved);
+
+  const toggle = document.getElementById('theme-toggle');
+  if (toggle) {
+    toggle.addEventListener('change', () => {
+      setTheme(toggle.checked ? 'dark' : 'light');
+    });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', initTheme);
