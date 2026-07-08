@@ -52,34 +52,33 @@ body {
 
 /* Dark Theme */
 body.dark {
-  --bg-page: #0f172a;
-  --bg-body: #1e293b;
-  --bg-card: #1e293b;
-  --bg-card-alt: #334155;
-  --bg-card-hover: #475569;
-  --bg-dark: #0f172a;
-  --bg-dark-card: #1e293b;
-  --bg-soft: #1e293b;
-  --bg-warm: #1e293b;
-  --bg-pink: #1e293b;
-  --text-primary: #f1f5f9;
-  --text-secondary: #e2e8f0;
-  --text-body: #cbd5e1;
-  --text-muted: #94a3b8;
-  --text-light: #64748b;
-  --text-on-dark: #f1f5f9;
-  --text-on-dark-muted: #cbd5e1;
-  --border-light: #334155;
-  --border-soft: #334155;
-  --border-pink: #831843;
-  --border-slate: #475569;
-  --border-amber: #92400e;
-  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
-  --shadow-md: 0 4px 6px -4px rgb(0 0 0 / 0.4);
-  --gradient-page: linear-gradient(to bottom, #0f172a, #1e293b, #0f172a);
-  --gradient-pink: linear-gradient(to bottom right, #1e293b, #0f172a);
-  --gradient-slate: linear-gradient(to bottom right, #1e293b, #0f172a);
-  --gradient-decision: linear-gradient(to right, #0f172a, #1e293b, #0f172a);
+  --bg-page: #181119;
+  --bg-body: #1f1720;
+  --bg-card: #231a25;
+  --bg-card-alt: #2d2230;
+  --bg-card-hover: #382c3b;
+  --bg-dark: #181119;
+  --bg-dark-card: #231a25;
+  --bg-soft: #231a25;
+  --bg-warm: #2d2230;
+  --bg-pink: #2d1c2a;
+  --text-primary: #f5eef5;
+  --text-secondary: #e8dde9;
+  --text-body: #cdbdcf;
+  --text-muted: #9a859c;
+  --text-light: #6d5c6f;
+  --text-on-dark: #f5eef5;
+  --text-on-dark-muted: #cdbdcf;
+  --border-light: #3a2e3c;
+  --border-soft: #3a2e3c;
+  --border-pink: #5c2450;
+  --border-slate: #4a3b4c;
+  --border-amber: #6b4a1a;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 6px -4px rgb(0 0 0 / 0.5);
+  --gradient-page: linear-gradient(to bottom, #181119, #1f1720, #181119);
+  --gradient-pink: linear-gradient(to bottom right, #231a25, #181119);
+  --gradient-slate: linear-gradient(to bottom right, #231a25, #181119);
 }
 
 html {
