@@ -97,7 +97,22 @@ const translations = {
     poll_godzilla_desc: "Monster spectacle and cult fun",
     poll_gta_desc: "The biggest event of the year",
     poll_vote: "Vote",
-    poll_total: "Total votes: <strong data-poll-count>0</strong>"
+    poll_total: "Total votes: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "At a Glance",
+    comparison_title: "Side-by-Side Comparison",
+    comp_price: "Price",
+    comp_genre: "Genre",
+    comp_platform: "Platform",
+    comp_rating: "Hype Rating",
+    comp_vibe: "Vibe",
+    comp_barbie_genre: "Retro / Adventure",
+    comp_godzilla_genre: "Fighting / Brawler",
+    comp_gta_genre: "Open World / Action",
+    comp_barbie_vibe: "Stylish & Cozy",
+    comp_godzilla_vibe: "Loud & Proud",
+    comp_gta_vibe: "Epic & Massive",
+    trailers_eyebrow: "Watch the Action",
+    trailers_title: "Gameplay Trailers"
   },
 
   // ========== GERMAN ==========
@@ -210,7 +225,22 @@ const translations = {
     poll_godzilla_desc: "Monster-Spektakel und Kult-Spaß",
     poll_gta_desc: "Das größte Ereignis des Jahres",
     poll_vote: "Abstimmen",
-    poll_total: "Gesamte Stimmen: <strong data-poll-count>0</strong>"
+    poll_total: "Gesamte Stimmen: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "Auf einen Blick",
+    comparison_title: "Seite an Seite Vergleich",
+    comp_price: "Preis",
+    comp_genre: "Genre",
+    comp_platform: "Plattform",
+    comp_rating: "Hype-Bewertung",
+    comp_vibe: "Stimmung",
+    comp_barbie_genre: "Retro / Abenteuer",
+    comp_godzilla_genre: "Kampf / Brawler",
+    comp_gta_genre: "Open World / Action",
+    comp_barbie_vibe: "Stilvoll & Gemütlich",
+    comp_godzilla_vibe: "Laut & Stolz",
+    comp_gta_vibe: "Episch & Massiv",
+    trailers_eyebrow: "Sieh dir die Aktion an",
+    trailers_title: "Gameplay-Trailer"
   },
 
   // ========== RUSSIAN ==========
@@ -323,7 +353,22 @@ const translations = {
     poll_godzilla_desc: "Монстровое шоу и культовое веселье",
     poll_gta_desc: "Крупнейшее событие года",
     poll_vote: "Голосовать",
-    poll_total: "Всего голосов: <strong data-poll-count>0</strong>"
+    poll_total: "Всего голосов: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "Быстрый обзор",
+    comparison_title: "Сравнение бок о бок",
+    comp_price: "Цена",
+    comp_genre: "Жанр",
+    comp_platform: "Платформа",
+    comp_rating: "Уровень хайпа",
+    comp_vibe: "Атмосфера",
+    comp_barbie_genre: "Ретро / Приключение",
+    comp_godzilla_genre: "Боевик / Бrawler",
+    comp_gta_genre: "Open World / Экшн",
+    comp_barbie_vibe: "Стильно & Уютно",
+    comp_godzilla_vibe: "Громко & Гордо",
+    comp_gta_vibe: "Эпично & Масштабно",
+    trailers_eyebrow: "Смотри экшн",
+    trailers_title: "Геймплей трейлеры"
   },
 
   // ========== FRENCH ==========
@@ -436,7 +481,22 @@ const translations = {
     poll_godzilla_desc: "Spectacle monstre et fun culte",
     poll_gta_desc: "Le plus grand événement de l'année",
     poll_vote: "Voter",
-    poll_total: "Total des votes: <strong data-poll-count>0</strong>"
+    poll_total: "Total des votes: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "En un coup d'œil",
+    comparison_title: "Comparaison côte à côte",
+    comp_price: "Prix",
+    comp_genre: "Genre",
+    comp_platform: "Plateforme",
+    comp_rating: "Niveau Hype",
+    comp_vibe: "Ambiance",
+    comp_barbie_genre: "Rétro / Aventure",
+    comp_godzilla_genre: "Combat / Brawler",
+    comp_gta_genre: "Monde Ouvert / Action",
+    comp_barbie_vibe: "Stylé & Chaleureux",
+    comp_godzilla_vibe: "Fort & Fier",
+    comp_gta_vibe: "Épique & Massif",
+    trailers_eyebrow: "Regarde l'action",
+    trailers_title: "Bandes-annonces Gameplay"
   },
 
   // ========== CHINESE ==========
@@ -549,7 +609,22 @@ const translations = {
     poll_godzilla_desc: "怪兽奇观和邪典乐趣",
     poll_gta_desc: "年度最大事件",
     poll_vote: "投票",
-    poll_total: "总票数: <strong data-poll-count>0</strong>"
+    poll_total: "总票数: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "一览",
+    comparison_title: "并排对比",
+    comp_price: "价格",
+    comp_genre: "类型",
+    comp_platform: "平台",
+    comp_rating: "热度评分",
+    comp_vibe: "氛围",
+    comp_barbie_genre: "复古 / 冒险",
+    comp_godzilla_genre: "格斗 / 动作",
+    comp_gta_genre: "开放世界 / 动作",
+    comp_barbie_vibe: "时尚 & 温馨",
+    comp_godzilla_vibe: "响亮 & 自豪",
+    comp_gta_vibe: "史诗 & 壮观",
+    trailers_eyebrow: "观看动作",
+    trailers_title: "游戏玩法预告片"
   },
 
   // ========== SPANISH ==========
@@ -662,7 +737,22 @@ const translations = {
     poll_godzilla_desc: "Espectáculo de monstruos y diversión de culto",
     poll_gta_desc: "El evento más grande del año",
     poll_vote: "Votar",
-    poll_total: "Votos totales: <strong data-poll-count>0</strong>"
+    poll_total: "Votos totales: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "De un vistazo",
+    comparison_title: "Comparación lado a lado",
+    comp_price: "Precio",
+    comp_genre: "Género",
+    comp_platform: "Plataforma",
+    comp_rating: "Nivel de Hype",
+    comp_vibe: "Ambiente",
+    comp_barbie_genre: "Retro / Aventura",
+    comp_godzilla_genre: "Lucha / Luchador",
+    comp_gta_genre: "Mundo Abierto / Acción",
+    comp_barbie_vibe: "Estilizado & Acogedor",
+    comp_godzilla_vibe: "Fuerte & Orgulloso",
+    comp_gta_vibe: "Épico & Masivo",
+    trailers_eyebrow: "Mira la acción",
+    trailers_title: "Tráilers de Gameplay"
   },
 
   // ========== HINDI ==========
@@ -775,7 +865,22 @@ const translations = {
     poll_godzilla_desc: "मॉन्स्टर शो और कल्ट मज़ा",
     poll_gta_desc: "साल का सबसे बड़ा इवेंट",
     poll_vote: "वोट करें",
-    poll_total: "कुल वोट: <strong data-poll-count>0</strong>"
+    poll_total: "कुल वोट: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "एक नज़र में",
+    comparison_title: "साइड-बाय-साइड तुलना",
+    comp_price: "कीमत",
+    comp_genre: "शैली",
+    comp_platform: "प्लेटफॉर्म",
+    comp_rating: "हाइप रेटिंग",
+    comp_vibe: "माहौल",
+    comp_barbie_genre: "रेट्रो / साहसिक",
+    comp_godzilla_genre: "लड़ाई / ब्राउलर",
+    comp_gta_genre: "ओपन वर्ल्ड / एक्शन",
+    comp_barbie_vibe: "स्टाइलिश & आरामदायक",
+    comp_godzilla_vibe: "ज़ोरदार & गर्वित",
+    comp_gta_vibe: "महाकाव्य & विशाल",
+    trailers_eyebrow: "एक्शन देखें",
+    trailers_title: "गेमप्ले ट्रेलर"
   },
 
   // ========== ARABIC ==========
@@ -888,6 +993,21 @@ const translations = {
     poll_godzilla_desc: "عرض الوحوش ومتعة الطقسية",
     poll_gta_desc: "حدث العام الأكبر",
     poll_vote: "تصويت",
-    poll_total: "إجمالي الأصوات: <strong data-poll-count>0</strong>"
+    poll_total: "إجمالي الأصوات: <strong data-poll-count>0</strong>",
+    comparison_eyebrow: "نظرة عامة",
+    comparison_title: "مقارنة جنبًا إلى جنب",
+    comp_price: "السعر",
+    comp_genre: "النوع",
+    comp_platform: "المنصة",
+    comp_rating: "تصنيف الهype",
+    comp_vibe: "الأجواء",
+    comp_barbie_genre: "كلاسيكي / مغامرة",
+    comp_godzilla_genre: "قتال / مقاتل",
+    comp_gta_genre: "عالم مفتوح / أكشن",
+    comp_barbie_vibe: "أنيق & دافئ",
+    comp_godzilla_vibe: "عالي الصوت & فخور",
+    comp_gta_vibe: "ملحمي & ضخم",
+    trailers_eyebrow: "شاهد الأكشن",
+    trailers_title: "عرض أفلام اللعب"
   }
 };
