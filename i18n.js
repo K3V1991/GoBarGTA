@@ -1,0 +1,84 @@
+// Internationalization (i18n) for GoBarGTA
+// Handles language detection, switching, and RTL support
+
+const SUPPORTED_LANGS = ['en', 'de', 'ru', 'fr', 'zh', 'es', 'hi', 'ar'];
+const DEFAULT_LANG = 'en';
+const STORAGE_KEY = 'gobargta-lang';
+
+const LANG_LABELS = {
+  en: 'EN', de: 'DE', ru: 'RU', fr: 'FR',
+  zh: 'ZH', es: 'ES', hi: 'HI', ar: 'AR'
+};
+
+// RTL languages
+const RTL_LANGS = ['ar'];
+
+let currentLang = DEFAULT_LANG;
+
+// Detect browser language
+function detectBrowserLang() {
+  const browserLang = (navigator.language || navigator.userLanguage || '').slice(0, 2).toLowerCase();
+  return SUPPORTED_LANGS.includes(browserLang) ? browserLang : DEFAULT_LANG;
+}
+
+// Get stored language or detect
+function getSavedLang() {
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
+  return detectBrowserLang();
+}
+
+// Set text for a single element
+function setElementText(el, key) {
+  const t = translations[currentLang];
+  if (!t || !(key in t)) return;
+
+  const value = t[key];
+  if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+    el.placeholder = value;
+  } else if (key === 'page_title') {
+    document.title = value;
+  } else {
+    el.innerHTML = value;
+  }
+}
+
+// Apply all translations
+function applyTranslations() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    setElementText(el, key);
+  });
+
+  // Update html lang attribute
+  document.documentElement.lang = currentLang;
+
+  // Handle RTL
+  if (RTL_LANGS.includes(currentLang)) {
+    document.documentElement.dir = 'rtl';
+  } else {
+    document.documentElement.dir = 'ltr';
+  }
+
+  // Update language switcher buttons
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === currentLang);
+  });
+}
+
+// Switch language
+function setLanguage(lang) {
+  if (!SUPPORTED_LANGS.includes(lang)) return;
+  currentLang = lang;
+  localStorage.setItem(STORAGE_KEY, lang);
+  applyTranslations();
+}
+
+// Initialize
+function initI18n() {
+  currentLang = getSavedLang();
+  applyTranslations();
+}
+
+// Run on DOM ready
+document.addEventListener('DOMContentLoaded', initI18n);
