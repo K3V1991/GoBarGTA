@@ -273,6 +273,8 @@ img, video {
 
 .page-wrapper {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-image: linear-gradient(to bottom, #fdf2f8, #fff, #f1f5f9);
 }
 
@@ -564,6 +566,7 @@ img, video {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex: 1;
   max-width: 80rem;
   flex-direction: column;
   gap: 4rem;
@@ -1122,12 +1125,14 @@ img, video {
 .visitor-footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
   padding: 2rem;
   padding-bottom: 3rem;
 }
 
 .visitor-counter {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.75rem;
   border-radius: 9999px;
