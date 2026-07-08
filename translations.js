@@ -115,7 +115,10 @@ const translations = {
     comp_godzilla_price: "$39.99",
     comp_gta_price: "$69.99",
     trailers_eyebrow: "Watch the Action",
-    trailers_title: "Game Trailers"
+    trailers_title: "Game Trailers",
+    calendar_eyebrow: "Q4 2026",
+    calendar_title: "Release Calendar",
+    calendar_description: "The biggest releases of the year are coming. Here's what to look forward to."
   },
 
   // ========== GERMAN ==========
@@ -246,7 +249,10 @@ const translations = {
     comp_godzilla_price: "39,99 €",
     comp_gta_price: "69,99 €",
     trailers_eyebrow: "Sieh dir die Aktion an",
-    trailers_title: "Game-Trailer"
+    trailers_title: "Game-Trailer",
+    calendar_eyebrow: "Q4 2026",
+    calendar_title: "Release-Kalender",
+    calendar_description: "Die größten Releases des Jahres kommen. Hier ist, worauf du dich freuen kannst."
   },
 
   // ========== RUSSIAN ==========
@@ -377,7 +383,10 @@ const translations = {
     comp_godzilla_price: "3 999 ₽",
     comp_gta_price: "6 999 ₽",
     trailers_eyebrow: "Смотри экшн",
-    trailers_title: "Трейлеры игр"
+    trailers_title: "Трейлеры игр",
+    calendar_eyebrow: "Q4 2026",
+    calendar_title: "Календарь релизов",
+    calendar_description: "Приближаются крупнейшие релизы года. Вот на что стоит ждать."
   },
 
   // ========== FRENCH ==========
@@ -508,7 +517,10 @@ const translations = {
     comp_godzilla_price: "39,99 €",
     comp_gta_price: "69,99 €",
     trailers_eyebrow: "Regarde l'action",
-    trailers_title: "Bandes-annonces"
+    trailers_title: "Bandes-annonces",
+    calendar_eyebrow: "Q4 2026",
+    calendar_title: "Calendrier des sorties",
+    calendar_description: "Les plus grandes sorties de l'année arrivent. Voici quoi anticiper."
   },
 
   // ========== CHINESE ==========
@@ -639,7 +651,10 @@ const translations = {
     comp_godzilla_price: "¥269",
     comp_gta_price: "¥498",
     trailers_eyebrow: "观看动作",
-    trailers_title: "游戏预告片"
+    trailers_title: "游戏预告片",
+    calendar_eyebrow: "2026年第四季度",
+    calendar_title: "发售日历",
+    calendar_description: "年度最大发售即将到来。以下是值得期待的内容。"
   },
 
   // ========== SPANISH ==========
@@ -770,7 +785,10 @@ const translations = {
     comp_godzilla_price: "39,99 €",
     comp_gta_price: "69,99 €",
     trailers_eyebrow: "Mira la acción",
-    trailers_title: "Tráilers"
+    trailers_title: "Tráilers",
+    calendar_eyebrow: "Q4 2026",
+    calendar_title: "Calendario de lanzamientos",
+    calendar_description: "Los lanzamientos más grandes del año están llegando. Esto es lo que debes esperar."
   },
 
   // ========== HINDI ==========
@@ -901,7 +919,10 @@ const translations = {
     comp_godzilla_price: "₹3,299",
     comp_gta_price: "₹5,999",
     trailers_eyebrow: "एक्शन देखें",
-    trailers_title: "गेम ट्रेलर"
+    trailers_title: "गेम ट्रेलर",
+    calendar_eyebrow: "Q4 2026",
+    calendar_title: "रिलीज़ कैलेंडर",
+    calendar_description: "साल के सबसे बड़े रिलीज़ आ रहे हैं। यहाँ है जिसका आप इंतज़ार कर सकते हैं।"
   },
 
   // ========== ARABIC ==========
@@ -1032,6 +1053,9 @@ const translations = {
     comp_godzilla_price: "150 ر.س",
     comp_gta_price: "262 ر.س",
     trailers_eyebrow: "شاهد الأكشن",
-    trailers_title: "إعلانات الألعاب"
+    trailers_title: "إعلانات الألعاب",
+    calendar_eyebrow: "Q4 2026",
+    calendar_title: "تقويم الإصدارات",
+    calendar_description: "أكبر الإصدارات قادمة. إليك ما يمكنك التطلع إليه."
   }
 };
