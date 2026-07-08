@@ -110,3 +110,68 @@ function initTheme() {
 }
 
 document.addEventListener('DOMContentLoaded', initTheme);
+
+// Community Poll
+const POLL_KEY = 'gobargta-poll';
+
+function getPollData() {
+  const data = localStorage.getItem(POLL_KEY);
+  return data ? JSON.parse(data) : { barbie: 0, godzilla: 0, gta: 0, all: 0 };
+}
+
+function savePollData(data) {
+  localStorage.setItem(POLL_KEY, JSON.stringify(data));
+}
+
+function updatePollUI() {
+  const data = getPollData();
+  const total = data.barbie + data.godzilla + data.gta + data.all;
+
+  document.querySelectorAll('[data-poll-bar]').forEach(bar => {
+    const key = bar.dataset.pollBar;
+    const pct = total > 0 ? (data[key] / total * 100) : 0;
+    bar.style.width = pct + '%';
+  });
+
+  document.querySelectorAll('[data-poll-percent]').forEach(el => {
+    const key = el.dataset.pollPercent;
+    const pct = total > 0 ? (data[key] / total * 100) : 0;
+    el.textContent = Math.round(pct) + '%';
+  });
+
+  document.querySelectorAll('[data-poll-count]').forEach(el => {
+    el.textContent = total;
+  });
+}
+
+function handleVote(choice) {
+  const data = getPollData();
+  data[choice]++;
+  savePollData(data);
+
+  document.querySelectorAll('.poll-card').forEach(card => {
+    card.classList.remove('voted');
+    card.querySelector('.poll-btn').disabled = true;
+  });
+
+  document.querySelector(`[data-poll="${choice}"]`).classList.add('voted');
+  updatePollUI();
+  localStorage.setItem('gobargta-poll-voted', choice);
+}
+
+function initPoll() {
+  const voted = localStorage.getItem('gobargta-poll-voted');
+
+  document.querySelectorAll('.poll-btn').forEach(btn => {
+    btn.addEventListener('click', () => handleVote(btn.dataset.vote));
+  });
+
+  if (voted) {
+    document.querySelector(`[data-poll="${voted}"]`)?.classList.add('voted');
+    document.querySelectorAll('.poll-btn').forEach(btn => btn.disabled = true);
+  }
+
+  updatePollUI();
+}
+
+document.addEventListener('DOMContentLoaded', initPoll);
