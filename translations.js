@@ -112,7 +112,7 @@ const translations = {
     comp_godzilla_vibe: "Loud & Proud",
     comp_gta_vibe: "Epic & Massive",
     trailers_eyebrow: "Watch the Action",
-    trailers_title: "Gameplay Trailers"
+    trailers_title: "Game Trailers"
   },
 
   // ========== GERMAN ==========
@@ -240,7 +240,7 @@ const translations = {
     comp_godzilla_vibe: "Laut & Stolz",
     comp_gta_vibe: "Episch & Massiv",
     trailers_eyebrow: "Sieh dir die Aktion an",
-    trailers_title: "Gameplay-Trailer"
+    trailers_title: "Game-Trailer"
   },
 
   // ========== RUSSIAN ==========
@@ -368,7 +368,7 @@ const translations = {
     comp_godzilla_vibe: "Громко & Гордо",
     comp_gta_vibe: "Эпично & Масштабно",
     trailers_eyebrow: "Смотри экшн",
-    trailers_title: "Геймплей трейлеры"
+    trailers_title: "Трейлеры игр"
   },
 
   // ========== FRENCH ==========
@@ -496,7 +496,7 @@ const translations = {
     comp_godzilla_vibe: "Fort & Fier",
     comp_gta_vibe: "Épique & Massif",
     trailers_eyebrow: "Regarde l'action",
-    trailers_title: "Bandes-annonces Gameplay"
+    trailers_title: "Bandes-annonces"
   },
 
   // ========== CHINESE ==========
@@ -624,7 +624,7 @@ const translations = {
     comp_godzilla_vibe: "响亮 & 自豪",
     comp_gta_vibe: "史诗 & 壮观",
     trailers_eyebrow: "观看动作",
-    trailers_title: "游戏玩法预告片"
+    trailers_title: "游戏预告片"
   },
 
   // ========== SPANISH ==========
@@ -752,7 +752,7 @@ const translations = {
     comp_godzilla_vibe: "Fuerte & Orgulloso",
     comp_gta_vibe: "Épico & Masivo",
     trailers_eyebrow: "Mira la acción",
-    trailers_title: "Tráilers de Gameplay"
+    trailers_title: "Tráilers"
   },
 
   // ========== HINDI ==========
@@ -880,7 +880,7 @@ const translations = {
     comp_godzilla_vibe: "ज़ोरदार & गर्वित",
     comp_gta_vibe: "महाकाव्य & विशाल",
     trailers_eyebrow: "एक्शन देखें",
-    trailers_title: "गेमप्ले ट्रेलर"
+    trailers_title: "गेम ट्रेलर"
   },
 
   // ========== ARABIC ==========
@@ -1008,6 +1008,6 @@ const translations = {
     comp_godzilla_vibe: "عالي الصوت & فخور",
     comp_gta_vibe: "ملحمي & ضخم",
     trailers_eyebrow: "شاهد الأكشن",
-    trailers_title: "عرض أفلام اللعب"
+    trailers_title: "إعلانات الألعاب"
   }
 };
