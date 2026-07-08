@@ -952,98 +952,6 @@ img, video {
   color: var(--text-on-dark-muted);
 }
 
-/* === Decision Section === */
-.decision-section {
-  border-radius: 36px;
-  border-width: 1px;
-  border-color: var(--border-light);
-  background-image: var(--gradient-decision);
-  padding: 2rem;
-  box-shadow: var(--shadow-sm);
-}
-
-.decision-header {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 48rem;
-  text-align: center;
-}
-
-.decision-grid {
-  margin-top: 2.5rem;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: center;
-  gap: 2rem;
-}
-
-.bar-vote-card {
-  border-radius: 28px;
-  border-width: 1px;
-  border-color: var(--border-light);
-  background-color: var(--bg-card-alt);
-  padding: 1.5rem;
-}
-
-.vote-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.vote-title {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.vote-percent {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 800;
-  color: var(--text-primary);
-}
-
-.vote-bar-track {
-  margin-top: 1.25rem;
-  height: 1rem;
-  overflow: hidden;
-  border-radius: 9999px;
-  background-color: var(--border-light);
-}
-
-.vote-bar-fill {
-  height: 100%;
-  width: 53%;
-  border-radius: 9999px;
-  background-color: var(--text-primary);
-}
-
-.vote-text {
-  margin-top: 1rem;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  color: var(--text-muted);
-}
-
-.decision-note {
-  margin-top: 2rem;
-  border-radius: 1.5rem;
-  border-width: 1px;
-  border-color: var(--border-light);
-  background-color: var(--bg-card);
-  padding: 1.25rem;
-  text-align: center;
-  color: var(--text-muted);
-}
-
-.decision-highlight {
-  font-weight: 700;
-  color: rgb(219 39 119 / 1);
-}
-
 /* === Barbenheimer Analogy Section === */
 .barbenheimer-analogy-section {
   display: grid;
@@ -1275,8 +1183,6 @@ html[dir="rtl"] .reason-title,
 html[dir="rtl"] .dual-item,
 html[dir="rtl"] .category-text,
 html[dir="rtl"] .aside-note,
-html[dir="rtl"] .vote-text,
-html[dir="rtl"] .decision-note,
 html[dir="rtl"] .section-text,
 html[dir="rtl"] .hero-description,
 html[dir="rtl"] .panel-note,
@@ -1380,14 +1286,6 @@ html[dir="rtl"] .section-description {
 
   .reading-card {
     padding: 1.5rem;
-  }
-
-  .decision-section {
-    padding: 1.5rem;
-  }
-
-  .decision-grid {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .barbenheimer-analogy-section {
