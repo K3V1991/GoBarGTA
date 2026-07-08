@@ -111,6 +111,9 @@ const translations = {
     comp_barbie_vibe: "Stylish & Cozy",
     comp_godzilla_vibe: "Loud & Proud",
     comp_gta_vibe: "Epic & Massive",
+    comp_barbie_price: "$29.99",
+    comp_godzilla_price: "$39.99",
+    comp_gta_price: "$69.99",
     trailers_eyebrow: "Watch the Action",
     trailers_title: "Game Trailers"
   },
@@ -239,6 +242,9 @@ const translations = {
     comp_barbie_vibe: "Stilvoll & Gemütlich",
     comp_godzilla_vibe: "Laut & Stolz",
     comp_gta_vibe: "Episch & Massiv",
+    comp_barbie_price: "29,99 €",
+    comp_godzilla_price: "39,99 €",
+    comp_gta_price: "69,99 €",
     trailers_eyebrow: "Sieh dir die Aktion an",
     trailers_title: "Game-Trailer"
   },
@@ -367,6 +373,9 @@ const translations = {
     comp_barbie_vibe: "Стильно & Уютно",
     comp_godzilla_vibe: "Громко & Гордо",
     comp_gta_vibe: "Эпично & Масштабно",
+    comp_barbie_price: "2 999 ₽",
+    comp_godzilla_price: "3 999 ₽",
+    comp_gta_price: "6 999 ₽",
     trailers_eyebrow: "Смотри экшн",
     trailers_title: "Трейлеры игр"
   },
@@ -495,6 +504,9 @@ const translations = {
     comp_barbie_vibe: "Stylé & Chaleureux",
     comp_godzilla_vibe: "Fort & Fier",
     comp_gta_vibe: "Épique & Massif",
+    comp_barbie_price: "29,99 €",
+    comp_godzilla_price: "39,99 €",
+    comp_gta_price: "69,99 €",
     trailers_eyebrow: "Regarde l'action",
     trailers_title: "Bandes-annonces"
   },
@@ -623,6 +635,9 @@ const translations = {
     comp_barbie_vibe: "时尚 & 温馨",
     comp_godzilla_vibe: "响亮 & 自豪",
     comp_gta_vibe: "史诗 & 壮观",
+    comp_barbie_price: "¥199",
+    comp_godzilla_price: "¥269",
+    comp_gta_price: "¥498",
     trailers_eyebrow: "观看动作",
     trailers_title: "游戏预告片"
   },
@@ -751,6 +766,9 @@ const translations = {
     comp_barbie_vibe: "Estilizado & Acogedor",
     comp_godzilla_vibe: "Fuerte & Orgulloso",
     comp_gta_vibe: "Épico & Masivo",
+    comp_barbie_price: "29,99 €",
+    comp_godzilla_price: "39,99 €",
+    comp_gta_price: "69,99 €",
     trailers_eyebrow: "Mira la acción",
     trailers_title: "Tráilers"
   },
@@ -879,6 +897,9 @@ const translations = {
     comp_barbie_vibe: "स्टाइलिश & आरामदायक",
     comp_godzilla_vibe: "ज़ोरदार & गर्वित",
     comp_gta_vibe: "महाकाव्य & विशाल",
+    comp_barbie_price: "₹2,499",
+    comp_godzilla_price: "₹3,299",
+    comp_gta_price: "₹5,999",
     trailers_eyebrow: "एक्शन देखें",
     trailers_title: "गेम ट्रेलर"
   },
@@ -1007,6 +1028,9 @@ const translations = {
     comp_barbie_vibe: "أنيق & دافئ",
     comp_godzilla_vibe: "عالي الصوت & فخور",
     comp_gta_vibe: "ملحمي & ضخم",
+    comp_barbie_price: "112 ر.س",
+    comp_godzilla_price: "150 ر.س",
+    comp_gta_price: "262 ر.س",
     trailers_eyebrow: "شاهد الأكشن",
     trailers_title: "إعلانات الألعاب"
   }
