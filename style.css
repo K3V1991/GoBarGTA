@@ -60,7 +60,7 @@ body.dark {
   --bg-dark: #1e1520;
   --bg-dark-card: #2a202e;
   --bg-soft: #2a202e;
-  --bg-warm: #332838;
+  --bg-warm: #fff8e7;
   --bg-pink: #352435;
   --text-primary: #f7f0f8;
   --text-secondary: #ebe0ed;
@@ -73,7 +73,7 @@ body.dark {
   --border-soft: #41344a;
   --border-pink: #6b2f5e;
   --border-slate: #524260;
-  --border-amber: #7a5520;
+  --border-amber: #f59e0b;
   --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.35);
   --shadow-md: 0 4px 6px -4px rgb(0 0 0 / 0.45);
   --gradient-page: linear-gradient(to bottom, #1e1520, #251c28, #1e1520);
@@ -1403,6 +1403,45 @@ html[dir="rtl"] .section-description {
 /* Dark theme specific header adjustments */
 body.dark .top-bar {
   background-color: var(--bg-body);
+}
+
+/* Dark mode conclusion section override */
+body.dark .conclusion-section {
+  background-color: #fff8e7;
+  border-color: #f59e0b;
+  color: #111827;
+}
+
+body.dark .conclusion-text {
+  color: #374151;
+}
+
+body.dark .cta-card {
+  background-color: #ffffff;
+  border-color: #f59e0b;
+}
+
+body.dark .cta-label {
+  color: #374151;
+}
+
+body.dark .cta-button {
+  background-color: #f59e0b;
+  color: #ffffff;
+}
+
+body.dark .cta-button:hover {
+  background-color: #d97706;
+}
+
+body.dark .secondary-link {
+  border-color: #f59e0b;
+  color: #111827;
+}
+
+body.dark .secondary-link:hover {
+  border-color: #ec4899;
+  color: #ec4899;
 }
 
 /* === Community Poll Section === */
